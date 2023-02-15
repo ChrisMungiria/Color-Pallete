@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    background-color: rgb(236, 219, 255);
+    width: 100vw;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copied {
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 12, 61);
+    color: rgb(236, 236, 236);
+    border-radius: 20px;
+    width: fit-content;
+    height: max-content + 20px;
+    padding: 10px 30px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
+    transition: all 0.4s ease-in-out;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card {
+    height: 220px;
+    border-radius: 12px;
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0px 10px 10px #9b9b9b;
+    cursor: pointer;
+}
+
+.color {
+    position: relative;
+    border-radius: 0.25rem;
+    background-color: #90e1ff;
+    height: 150px;
+    width: auto;
+}
+
+.colorHex {
+    color: #696969;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.generate {
+    border: none;
+    background-color: #8400ff;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 5px #8400ff;
+    padding: 10px 100px;
+    transition: all 0.4s ease-in-out;
+}
+
+.generate:hover {
+    padding: 10px 90px;
+    cursor: pointer;
+    box-shadow: 0px 15px 5px #a600ff;
+}
+
+.generate:focus {
+    outline: none;
+}
+
+.clickCopy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0px 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
